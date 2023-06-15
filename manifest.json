@@ -1,0 +1,11 @@
+{
+  "name": "Peeeng-Plugins",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "common chrome plugins",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": "./static/icon.jpg",
+    "default_popup": "index.html"
+  }
+}
